@@ -92,14 +92,15 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background: transparent;
+  backdrop-filter: blur(20px);
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 15%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: #000000 !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -120,7 +121,7 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    background: #000000;
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -142,6 +143,7 @@ span.navbar-text {
 .social-icon a:hover::before {
     transform: scale(1);
 }
+
 .social-icon a img {
 	width: 40%;
 	z-index: 1;
@@ -152,8 +154,8 @@ span.navbar-text {
 }
 .navbar-text button {
   font-weight: 700;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #000000;
+  border: 1px solid #000000;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
@@ -234,7 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/BG.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,11 +244,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  padding: 18px 20px;
+  background: linear-gradient(90.21deg, rgba(21, 8, 16, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
 }
 .banner h1 {
@@ -258,14 +261,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #000000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #9609f4;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
