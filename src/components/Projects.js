@@ -10,7 +10,6 @@ import projImg6 from "../assets/img/unique chevron.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { Link } from "react-bootstrap-icons";
 
 export const Projects = () => {
 
@@ -112,7 +111,9 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>                    </Tab.Pane>
+                      </Row>
+                   </Tab.Pane>
+
                   </Tab.Content>
                 </Tab.Container>
               </div>}
