@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
+// import Catalogue from "./components/catalogue"
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
+      {/* <Catalogue/> */}
       <Projects />
       <Contact />
       <Footer />
