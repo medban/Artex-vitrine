@@ -236,7 +236,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/BG.jpg');
+  background-image: url('./assets/img/bggg.jpg');
+  
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -307,10 +308,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .skill-bx {
-  background: #151515;
-  border-radius: 64px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);  border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
@@ -320,7 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #000000;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -347,15 +348,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
-}
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);}
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  
+  margin-top: -140px;
 }
 .project p {
-  color: #B8B8B8;
+  color: #000000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -488,8 +490,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);  padding: 60px 0 200px 0;
 }
 .contact img {
   width: 92%;
@@ -498,6 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   margin-bottom: 30px;
+  color: #000;
 }
 .contact form input, .contact form textarea {
   width: 100%;
@@ -519,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form input::placeholder, .contact form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: #000000;
 }
 .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
   color: #121212;
