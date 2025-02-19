@@ -1,7 +1,3 @@
-
-
-
-
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import headerImg from "../assets/img/KIM.jpg";
@@ -10,10 +6,11 @@ import img2 from "../assets/img/machine.jpg";
 import img3 from "../assets/img/machine 1.jpg";
 import img4 from "../assets/img/file.jpg";
 import "animate.css";
-import {Contact} from "../components/Contact";
-import { Footer } from "../components/Footer";
+import {Contact} from "./Contact";
+import { Footer } from "./Footer";
 import TrackVisibility from "react-on-screen";
-function Classic() {
+
+const About = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
@@ -143,4 +140,4 @@ function Classic() {
   );
 };
 
-export default Classic
+export default About;

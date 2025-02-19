@@ -6,7 +6,6 @@ import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/unique chevron.jpg";
-
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,34 +15,39 @@ export const Projects = () => {
   const projects = [
     {
       title: "CLASSIC",
-      description: "Design by artex",
-      imgUrl: projImg1,
+      
+      imgUrl: [projImg1,], 
+      link: "/Classic",
     },
     {
       title: "JACQUARD BERBER",
-      description: "Design BY ARTEX",
-      imgUrl: projImg2,
+      
+      imgUrl: [projImg2], 
+      link: "/Jacquard",
     },
     {
       title: "JACQUARD DIAMOND",
-      description: "Design BY ARTEX",
-      imgUrl: projImg3,
+      
+      imgUrl: [projImg3], 
+      link: "/JacquardDiamond",
     },
     {
-      title: "CHAVRON ",
-      description: "Design BY ARTEX",
-      imgUrl: projImg4,
+      title: "CHEVRON",
+      
+      imgUrl: [projImg4], 
+      link: "/Chevron",
     },
     {
-      title: "GRAIN DE CAFE ",
-      description: "Design BY ARTEX",
-      imgUrl: projImg5,
+      title: "GRAIN DE CAFE",
+      
+      imgUrl: [projImg5], 
+      link: "/Graindecafe",
     },
     {
-      title: "UNIQUE CHEVRON ",
-      description: "Design BY ARTEX",
-      imgUrl: projImg6,
-
+      title: "UNIQUE CHEVRON",
+      
+      imgUrl: [projImg6], 
+      link: "/uniqueChevron",
     },
   ];
 
@@ -79,6 +83,7 @@ export const Projects = () => {
                                 key={index}
                                 {...project}
                                 />
+                                
                             )
                           })
                         }
