@@ -28,7 +28,7 @@ function App() {
           <Contact />
           <Footer />
         </>} />
-        <Route path="/about" element={<About />} />
+        <Route path="/About" element={<About />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/Classic" element={<Classic />} />
   
