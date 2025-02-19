@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "../components/ProjectCard";
+import { Container, Row, Col, Tab } from "react-bootstrap";
+import { ProductsCard } from "./productsCard.jsx";
 import projImg1 from "../assets/img/classic .jpg";
 import projImg2 from "../assets/img/jacquard berber.jpg";
 import projImg3 from "../assets/img/jacquard diamond.jpg";
@@ -10,16 +10,16 @@ import projImg6 from "../assets/img/unique chevron.jpg";
 import "animate.css"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
-import { Footer } from '../components/Footer';
+import { Footer } from './Footer.js';
 
- const Products = () => {
+ const Classic = () => {
 
   
     const products = [
         {
           title: "CLASSIC",
           description: "Design by artex",
-          imgUrl: projImg1,
+          imgUrl: [projImg1,projImg2],
         },
         {
           title: "JACQUARD BERBER",
@@ -61,24 +61,14 @@ import { Footer } from '../components/Footer';
                     <h2>Categorie </h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                        <Nav.Item>
-                          <Nav.Link eventKey="first">SERVIETTE</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="second">VELOUR</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="third">JETER</Nav.Link>
-                        </Nav.Item>
-                      </Nav>
+                     
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                         <Tab.Pane eventKey="first">
                           <Row>
                             {
                               products.map((product, index) => {
                                 return (
-                                  <ProjectCard
+                                  <ProductsCard
                                     key={index}
                                     {...product}
                                     />
@@ -92,7 +82,7 @@ import { Footer } from '../components/Footer';
                             {
                               products.map((product, index) => {
                                 return (
-                                  <ProjectCard
+                                  <ProductsCard
                                     key={index}
                                     {...product}
                                     />
@@ -107,7 +97,7 @@ import { Footer } from '../components/Footer';
                             {
                               products.map((product, index) => {
                                 return (
-                                  <ProjectCard
+                                  <ProductsCard
                                     key={index}
                                     {...product}
                                     />
@@ -132,4 +122,4 @@ import { Footer } from '../components/Footer';
       )
     }
     
-    export default Products;
+    export default Classic;
