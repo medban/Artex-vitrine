@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Tab } from "react-bootstrap";
-import { ProductsCard } from "./productsCard.jsx";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { ProjectCard } from "../components/ProjectCard";
 import projImg1 from "../assets/img/classic .jpg";
 import projImg2 from "../assets/img/jacquard berber.jpg";
 import projImg3 from "../assets/img/jacquard diamond.jpg";
@@ -10,16 +10,17 @@ import projImg6 from "../assets/img/unique chevron.jpg";
 import "animate.css"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
-import { Footer } from './Footer.js';
+import { Footer } from '../components/Footer';
 
- const Classic = () => {
+ const Products = () => {
 
   
     const products = [
         {
           title: "CLASSIC",
           description: "Design by artex",
-          imgUrl: [projImg1,projImg2],
+          imgUrl: projImg1,
+          link :"/CLASSIC"
         },
         {
           title: "JACQUARD BERBER",
@@ -61,14 +62,25 @@ import { Footer } from './Footer.js';
                     <h2>Categorie </h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                     
+                      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                        <Nav.Item>
+                          <Nav.Link eventKey="first">SERVIETTE</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="SECONDE">JETER</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="third">ECHARPE</Nav.Link>
+                        </Nav.Item>
+                       
+                      </Nav>
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                         <Tab.Pane eventKey="first">
                           <Row>
                             {
                               products.map((product, index) => {
                                 return (
-                                  <ProductsCard
+                                  <ProjectCard
                                     key={index}
                                     {...product}
                                     />
@@ -77,27 +89,28 @@ import { Footer } from './Footer.js';
                             }
                           </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="section">
+
+                        <Tab.Pane eventKey="SECONDE">
                         <Row>
                             {
                               products.map((product, index) => {
                                 return (
-                                  <ProductsCard
+                                  <ProjectCard
                                     key={index}
                                     {...product}
                                     />
                                 )
                               })
                             }
-                          </Row>                   
-                           </Tab.Pane>
+                          </Row>
+                       </Tab.Pane>
     
                         <Tab.Pane eventKey="third">
                         <Row>
                             {
                               products.map((product, index) => {
                                 return (
-                                  <ProductsCard
+                                  <ProjectCard
                                     key={index}
                                     {...product}
                                     />
@@ -122,4 +135,4 @@ import { Footer } from './Footer.js';
       )
     }
     
-    export default Classic;
+    export default Products;

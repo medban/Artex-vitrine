@@ -369,6 +369,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
 }
 .skill h2 {
+  color: #000;
 	font-size: 45px;
 	font-weight: 700;
 }
@@ -396,6 +397,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.item h5{
+  color: #000;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -406,7 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
-  
+  color: #000;
   margin-top: 40px;
 }
 .project p {
@@ -432,7 +437,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
-  color: #fff;
+  color: #000000;
   width: 100%;
   font-size: 17px;
   letter-spacing: 0.8px;
@@ -447,7 +452,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    color: #fa0000;
+    background: linear-gradient(90.21deg, #363eaa -5.91%, #2f3dbd 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -479,7 +485,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #363eaa -5.91%, #2f3dbd 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -524,22 +530,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/**************catalogur**************/
-.btnn{
-  border: solid 2px;
-  background: transparent;
-  color: #FFFFFF;
-  margin-left: 72rem;
-  font-size: 35px;
-  padding: 25px 50px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.contain{
-  background:url(./assets/img/BG.jpg);
-
-}
 
 /************ Projects Css ************/
 .contact {
