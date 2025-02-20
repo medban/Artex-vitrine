@@ -1,17 +1,31 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+
+import colorSharp2 from "../assets/img/color-sharp2.png";
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+
 import projImg1 from "../assets/img/classic .jpg";
 import projImg2 from "../assets/img/jacquard berber.jpg";
 import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/unique chevron.jpg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+/***** DC 2 ******/
+import Img1 from "../assets/img/E1.jpg";
+import Img2 from "../assets/img/E2.jpg";
+import Img3 from "../assets/img/E3.jpg";
+import Img4 from "../assets/img/E4.jpg";
+import Img5 from "../assets/img/E5.jpg";
+import Img6 from "../assets/img/E6.jpg";
+
+
+
+
 
 export const Projects = () => {
 
+/******DATA CATAGORIE 1 ********/
   const projects = [
     {
       title: "CLASSIC",
@@ -50,6 +64,45 @@ export const Projects = () => {
       link: "/uniqueChevron",
     },
   ];
+  /******DATA 2 ********/
+  const projects2 = [
+    {
+      title: "BLUE",
+      
+      imgUrl: [Img1,], 
+      link: "/Classic",
+    },
+    {
+      title: "PINK",
+      
+      imgUrl: [Img2], 
+      link: "/Jacquard",
+    },
+    {
+      title: "BIEGE",
+      
+      imgUrl: [Img3], 
+      link: "/JacquardDiamond",
+    },
+    {
+      title: "GREEN",
+      
+      imgUrl: [Img4], 
+      link: "/Chevron",
+    },
+    {
+      title: "DRAK BLUE",
+      
+      imgUrl: [Img5], 
+      link: "/Graindecafe",
+    },
+    {
+      title: "PISTASHIO",
+      
+      imgUrl: [Img6], 
+      link: "/uniqueChevron",
+    },
+  ];
 
   return (
     <section className="project" id="projects">
@@ -67,7 +120,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">SERVIETTE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">VELOUR</Nav.Link>
+                      <Nav.Link eventKey="second">ECHARPE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">JETER</Nav.Link>
@@ -89,10 +142,10 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          projects2.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}

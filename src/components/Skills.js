@@ -1,6 +1,9 @@
- import meter1 from "../assets/img/meter1.svg";
- import meter2 from "../assets/img/meter2.svg";
- import meter3 from "../assets/img/meter3.svg";
+ import meter1 from "../assets/img/CLASSICS.png";
+ import meter2 from "../assets/img/BERBERS.png";
+ import meter3 from "../assets/img/fouta png.png";
+ import meter4 from "../assets/img/CHEVRONS.png";
+ import meter5 from "../assets/img/DIAMONDS.png";
+
  import Carousel from 'react-multi-carousel';
  import 'react-multi-carousel/lib/styles.css';
  import colorSharp from "../assets/img/color-sharp.png"
@@ -33,24 +36,28 @@
              <div className="row">
                  <div className="col-12">
                      <div className="skill-bx wow zoomIn">
-                         <h2>Skills</h2>
-                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                         <h2>NOUVELLE COLLECTION</h2>
+                         <p>ARTEX TUNISIE<br></br> Découvrez notre nouvelle collection de serviettes en coton biologique, alliant douceur, élégance et respect de l’environnement. Confectionnées à partir de fibres 100 % naturelles, elles offrent un confort exceptionnel tout en préservant la planète. Offrez à votre peau le meilleur avec des serviettes à la fois absorbantes, durables . </p>
                          <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                            <div className="item">
                                <img src={meter1} alt="Web Development Meter" />
-                               <h5>Web Development</h5>
+                               <h5>Nid D'abeille</h5>
                            </div>
                            <div className="item">
                                <img src={meter2} alt="Brand Identity Meter" />
-                               <h5>Brand Identity</h5>
+                               <h5>Jacquard BerBer</h5>
                            </div>
                            <div className="item">
                                <img src={meter3} alt="Logo Design Meter" />
-                               <h5>Logo Design</h5>
+                               <h5>Chevron</h5>
                            </div>
                            <div className="item">
-                               <img src={meter1} alt="Web Development Meter" />
-                               <h5>Web Development</h5>
+                               <img src={meter5} alt="Web Development Meter" />
+                               <h5>Jacquard Diamond</h5>
+                           </div>
+                           <div className="item">
+                               <img src={meter4} alt="Web Development Meter" />
+                               <h5>Chevron</h5>
                            </div>
                        </Carousel>
                      </div>

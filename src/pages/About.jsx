@@ -6,8 +6,8 @@ import img2 from "../assets/img/machine.jpg";
 import img3 from "../assets/img/machine 1.jpg";
 import img4 from "../assets/img/file.jpg";
 import "animate.css";
-import {Contact} from "./Contact";
-import { Footer } from "./Footer";
+import {Contact} from "../components/Contact";
+import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const About = () => {

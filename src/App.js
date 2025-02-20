@@ -7,9 +7,9 @@ import { Footer } from "./components/Footer";
 import {Skills} from "./components/Skills";
 
 // pages*************
-import About from "./components/About"; 
-import  Products  from "./components/products";
-import Classic from "./components/Classic";
+import About from "./pages/About"; 
+import  Products  from "./pages/products";
+import Classic from "./pages/Classic";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
