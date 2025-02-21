@@ -8,8 +8,13 @@ import {Skills} from "./components/Skills";
 
 // pages*************
 import About from "./pages/About"; 
-import  Products  from "./pages/products";
+import Jacquard from "./pages/Jaccquard.jsx";
 import Classic from "./pages/Classic";
+import TissuPlat from "./pages/TissuPlat";
+import JacquardDiamond from "./pages/JacquardDiamond.jsx";
+import Chevron from "./pages/Chevron.jsx";
+import GrainDecafe from "./pages/Stripe.jsx";
+import Echarpe from "./pages/Echarpe.jsx";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,9 +34,13 @@ function App() {
           <Footer />
         </>} />
         <Route path="/About" element={<About />} />
-        <Route path="/Products" element={<Products />} />
+        <Route path="/Jacquard" element={<Jacquard />} />
         <Route path="/Classic" element={<Classic />} />
-  
+        <Route path="/tissuplat" element={<TissuPlat />} />
+        <Route path="/JacquardDiamond" element={<JacquardDiamond />} />
+        <Route path="/Chevron" element={<Chevron />} />
+        <Route path="/grainDecafe" element={<GrainDecafe/>} />
+        <Route path="/Echarpe" element={<Echarpe/>}/>
       </Routes>
     </div>
   );

@@ -10,7 +10,7 @@ import projImg2 from "../assets/img/jacquard berber.jpg";
 import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
-import projImg6 from "../assets/img/unique chevron.jpg";
+import projImg6 from "../assets/img/TISSU PLAT.jpg";
 /***** DC 2 ******/
 import Img1 from "../assets/img/E1.jpg";
 import Img2 from "../assets/img/E2.jpg";
@@ -34,7 +34,7 @@ export const Projects = () => {
       link: "/Classic",
     },
     {
-      title: "JACQUARD BERBER",
+      title: "JACQUARD",
       
       imgUrl: [projImg2], 
       link: "/Jacquard",
@@ -55,57 +55,57 @@ export const Projects = () => {
       title: "GRAIN DE CAFE",
       
       imgUrl: [projImg5], 
-      link: "/Graindecafe",
+      link: "/grainDecafe",
     },
     {
-      title: "UNIQUE CHEVRON",
+      title: "TISSU PLAT",
       
       imgUrl: [projImg6], 
-      link: "/uniqueChevron",
+      link: "/tissuplat",
     },
   ];
-  /******DATA 2 ********/
+  /******DATA 2 echarpe ********/
   const projects2 = [
     {
       title: "BLUE",
       
       imgUrl: [Img1,], 
-      link: "/Classic",
+      link: "/Echarpe",
     },
     {
       title: "PINK",
       
       imgUrl: [Img2], 
-      link: "/Jacquard",
+      link: "/Echarpe",
     },
     {
       title: "BIEGE",
       
       imgUrl: [Img3], 
-      link: "/JacquardDiamond",
+      link: "/Echarpe ",
     },
     {
       title: "GREEN",
       
       imgUrl: [Img4], 
-      link: "/Chevron",
+      link: "/Echarpe",
     },
     {
       title: "DRAK BLUE",
       
       imgUrl: [Img5], 
-      link: "/Graindecafe",
+      link: "/Echarpe",
     },
     {
       title: "PISTASHIO",
       
       imgUrl: [Img6], 
-      link: "/uniqueChevron",
+      link: "/Echarpe",
     },
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="project" id="project" >
       <Container>
         <Row>
           <Col size={12}>
@@ -114,7 +114,7 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Categorie </h2>
                 <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Tab.Container  defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">SERVIETTE</Nav.Link>
