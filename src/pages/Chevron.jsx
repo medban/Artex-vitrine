@@ -32,79 +32,79 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg13,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg12,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg3,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg4,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg5,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg11,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg7,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg8,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg9,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg10,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg6,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg2,
-      
+            link: "/ProductDchevron",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg1,
-      
+            link: "/ProductDchevron",
           },
          
       ];

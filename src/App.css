@@ -335,8 +335,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner1 img {
-  height: 41rem;
-  width: 35rem;
+  height: auto;
+  width:auto;
   border-radius: 10PX;
   
 }
@@ -355,6 +355,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+
 
 /************ Skills Css ************/
 .skill {

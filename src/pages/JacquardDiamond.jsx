@@ -25,31 +25,31 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg7,
-      
+            link: "/ProductDjacquardDiamond",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg8,
-      
+            link: "/ProductDjacquardDiamond",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg9,
-      
+            link: "/ProductDjacquardDiamond",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg10,
-      
+            link: "/ProductDjacquardDiamond",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg11,
-      
+            link: "/ProductDjacquardDiamond",
           },
          
       ];

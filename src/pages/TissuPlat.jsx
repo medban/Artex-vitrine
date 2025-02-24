@@ -32,44 +32,52 @@ import { Footer } from '../components/Footer.js';
           title: "CLASSIC",
           description: "Design by artex",
           imgUrl: [projImg1,],
+          link: "/ProductDtissuplat",
         },
         {
           title: "JACQUARD BERBER",
           description: "Design BY ARTEX",
           imgUrl: projImg2,
+          link: "/ProductDtissuplat",
         },
         {
           title: "JACQUARD DIAMOND",
           description: "Design BY ARTEX",
           imgUrl: projImg3,
+          link: "/ProductDtissuplat",
         },
         {
           title: "CHAVRON ",
           description: "Design BY ARTEX",
           imgUrl: projImg4,
+          link: "/ProductDtissuplat",
         },
         {
           title: "GRAIN DE CAFE ",
           description: "Design BY ARTEX",
           imgUrl: projImg5,
+          link: "/ProductDtissuplat",
         },
         {
           title: "UNIQUE CHEVRON ",
           description: "Design BY ARTEX",
           imgUrl: projImg6,
-    
+          link: "/ProductDtissuplat",
+
         },
         {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg7,
       
+            link: "/ProductDtissuplat",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg8,
-      
+            link: "/ProductDtissuplat",
+
           },
           {
             title: "UNIQUE CHEVRON ",
@@ -81,37 +89,43 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg10,
-      
+            link: "/ProductDtissuplat",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg11,
-      
+            link: "/ProductDtissuplat",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg12,
-      
+            link: "/ProductDtissuplat",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg13,
-      
+            link: "/ProductDtissuplat",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg14,
-      
+            link: "/ProductDtissuplat",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg15,
-      
+            link: "/ProductDtissuplat",
+
           },
          
       ];
