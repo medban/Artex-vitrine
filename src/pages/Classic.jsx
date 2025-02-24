@@ -22,26 +22,36 @@ import { Footer } from '../components/Footer.js';
           title: "CLASSIC",
           description: "Design by artex",
           imgUrl: projImg1,
+          link: "/ProductDclassic",
+
         },
         {
           title: "JACQUARD BERBER",
           description: "Design BY ARTEX",
           imgUrl: projImg2,
+          link: "/ProductDclassic",
+
         },
         {
           title: "JACQUARD DIAMOND",
           description: "Design BY ARTEX",
           imgUrl: projImg3,
+          link: "/ProductDclassic",
+
         },
         {
           title: "CHAVRON ",
           description: "Design BY ARTEX",
           imgUrl: projImg4,
+          link: "/ProductDclassic",
+
         },
         {
           title: "GRAIN DE CAFE ",
           description: "Design BY ARTEX",
           imgUrl: projImg5,
+          link: "/ProductDclassic",
+
         },
         
       ];

@@ -15,6 +15,15 @@ import JacquardDiamond from "./pages/JacquardDiamond.jsx";
 import Chevron from "./pages/Chevron.jsx";
 import GrainDecafe from "./pages/Stripe.jsx";
 import Echarpe from "./pages/Echarpe.jsx";
+/********product details pages **********/
+import ProductDstripe from "./pageDetails/productDstripe.jsx";
+import ProductDecharpe from "./pageDetails/productDecharpe.jsx";
+import ProductDclassic from "./pageDetails/productDclassic.jsx";
+import ProductDchevron from "./pageDetails/productDchevron.jsx";
+import ProductDjacquard from "./pageDetails/productDjacquard.jsx";
+import ProductDjacquardDiamond from "./pageDetails/productDjacquarddiamond.jsx";
+import ProductDtissuplat from "./pageDetails/productDtissuplat.jsx";
+
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,6 +50,16 @@ function App() {
         <Route path="/Chevron" element={<Chevron />} />
         <Route path="/grainDecafe" element={<GrainDecafe/>} />
         <Route path="/Echarpe" element={<Echarpe/>}/>
+
+        <Route path="/ProductDecharpe" element={<ProductDecharpe/>}/>
+        <Route path="/ProductDstripe" element={<ProductDstripe/>}/>
+        <Route path="/ProductDclassic" element={<ProductDclassic/>}/>
+        <Route path="/productDchevron" element={<ProductDchevron/>}/>
+        <Route path="/ProductDjacquard" element={<ProductDjacquard/>}/>
+        <Route path="/ProductDjacquardDiamond" element={<ProductDjacquardDiamond/>}/>
+        <Route path="/ProductDtissuplat" element={<ProductDtissuplat/>}/>
+
+
       </Routes>
     </div>
   );

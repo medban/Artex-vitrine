@@ -29,61 +29,70 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg1,
-      
+            link: "/ProductDstripe",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg2,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg3,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg4,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg5,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg6,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg7,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg8,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg9,
-      
+            link: "/ProductDstripe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg10,
-      
+            link: "/ProductDstripe",
+
           },
         
          

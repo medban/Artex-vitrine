@@ -26,18 +26,22 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg3,
+            link: "/ProductDecharpe",
       
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg4,
-      
+            link: "/ProductDecharpe",
+
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg5,
+            link: "/ProductDecharpe",
+
       
           },
          
@@ -45,18 +49,24 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg6,
+            link: "/ProductDecharpe",
+
       
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg2,
+            link: "/ProductDecharpe",
+
       
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg1,
+            link: "/ProductDecharpe",
+
       
           },
          

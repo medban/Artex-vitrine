@@ -7,11 +7,6 @@ import projImg3 from "../assets/img/jacquard/berber/blue orange berber.jpg";
 import projImg4 from "../assets/img/jacquard/berber/orange blue berber.jpg";
 import projImg5 from "../assets/img/jacquard/berber/rouge berber.jpg";
 import projImg6 from "../assets/img/jacquard/berber/rouge blue berber.jpg";
-import projImg7 from "../assets/img/jacquard/diamond/blue ciel diamod.jpg";
-import projImg8 from "../assets/img/jacquard/diamond/blue diamond.jpg";
-import projImg9 from "../assets/img/jacquard/diamond/bordeaux rouge.jpg";
-import projImg10 from "../assets/img/jacquard/diamond/gray diamond.jpg";
-import projImg11 from "../assets/img/jacquard/diamond/purpule diamond.jpg";
 import projImg12 from "../assets/img/jacquard/leaf/gray leaf.jpg";
 import projImg13 from "../assets/img/jacquard/leaf/leaf gold.jpg";
 import projImg14 from "../assets/img/jacquard/leaf/leaf blue.jpg";
@@ -41,128 +36,99 @@ import { Footer } from '../components/Footer.js';
           title: "CLASSIC",
           description: "Design by artex",
           imgUrl: [projImg1,],
-        },
+          link: "/ProductDjacquard", },
         {
           title: "JACQUARD BERBER",
           description: "Design BY ARTEX",
           imgUrl: projImg2,
-        },
+          link: "/ProductDjacquard",  },
         {
           title: "JACQUARD DIAMOND",
           description: "Design BY ARTEX",
           imgUrl: projImg3,
-        },
+          link: "/ProductDjacquard",  },
         {
           title: "CHAVRON ",
           description: "Design BY ARTEX",
           imgUrl: projImg4,
-        },
+          link: "/ProductDjacquard",  },
         {
           title: "GRAIN DE CAFE ",
           description: "Design BY ARTEX",
           imgUrl: projImg5,
-        },
+          link: "/ProductDjacquard", },
         {
-          title: "UNIQUE CHEVRON ",
+          title: "UNIQUE jacquard ",
           description: "Design BY ARTEX",
           imgUrl: projImg6,
-    
+          link: "/ProductDjacquard",
         },
-        {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg7,
-      
-          },
+
           {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg8,
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg9,
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg10,
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg11,
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg12,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg13,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg14,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg15,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg16,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg17,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg18,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg19,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg20,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg21,
-      
+            link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "UNIQUE jacquard ",
             description: "Design BY ARTEX",
             imgUrl: projImg22,
-      
+            link: "/ProductDjacquard",
           },
          
       ];
@@ -180,7 +146,7 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>TISSU PLAT </h2>
+                    <h2>JACQUARD </h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
