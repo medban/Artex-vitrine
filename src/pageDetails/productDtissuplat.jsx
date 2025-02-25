@@ -18,7 +18,6 @@ import Img14 from "../assets/img/tissu plat/verte brasil.jpg";
 import Img15 from "../assets/img/tissu plat/verte d'eau.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -90,7 +89,7 @@ const ProductDtissuplat = () => {
         </Container>
       </section>
 
-      <Contact />
+
       <Footer />
 
       

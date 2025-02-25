@@ -9,7 +9,6 @@ import Img5 from "../assets/img/E5.jpg";
 import Img6 from "../assets/img/E6.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -72,7 +71,7 @@ const ProductDecharpe = () => {
         </Container>
       </section>
 
-      <Contact />
+  
       <Footer />
 
       <Modal show={showModal} onHide={handleClose} centered>

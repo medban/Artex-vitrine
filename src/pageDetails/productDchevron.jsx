@@ -16,7 +16,7 @@ import Img12 from "../assets/img/chevron/verte jeaun.jpg";
 import Img13 from "../assets/img/chevron/verte.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
+
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -86,7 +86,7 @@ const ProductDchevron = () => {
         </Container>
       </section>
 
-      <Contact />
+    
       <Footer />
 
       

@@ -20,7 +20,6 @@ import Img21 from "../assets/img/jacquard/verte tortue.jpg";
 import Img22 from "../assets/img/jacquard/caree blue.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -96,7 +95,6 @@ const ProductDjacquard = () => {
         </Container>
       </section>
 
-      <Contact />
       <Footer />
 
       
