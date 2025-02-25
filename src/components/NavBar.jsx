@@ -45,18 +45,19 @@ export const NavBar = () => {
               Products
             </Nav.Link>
             <Nav.Link href="/About" className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'}>
-             About
+              About
             </Nav.Link>
-            
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.facebook.com/ArtexTunisie"><img src={navIcon2} alt="fb" /></a>
               <a href="https://www.instagram.com/artextunisie/"><img src={navIcon3} alt="insta" /></a>
             </div>
-            <HashLink to="#connect">
-              <button className="vvd"><span>Contactez-nous</span></button>
-            </HashLink>
+            {location.pathname === "/" && (
+              <HashLink to="#connect">
+                <button className="vvd"><span>Contactez-nous</span></button>
+              </HashLink>
+            )}
           </span>
         </Navbar.Collapse>
       </Container>

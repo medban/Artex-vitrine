@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/1.png";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -54,14 +53,11 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome TO</span>
                   <h1>ARTEX TUNISIE</h1>
                   <p>
                     La Fouta Chevron ARTEX est décorée d'un élégant motif à chevrons, apportant une touche moderne et sophistiquée. Fabriquée à partir de coton 100% biologique, elle allie douceur et grand pouvoir absorbant, parfaite pour un usage quotidien. Aux dimensions généreuses de 1 m x 2 m, cette serviette ajoute une touche d'élégance et de confort naturel à votre salle de bain ou à la plage.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  
                 </div>
               )}
             </TrackVisibility>

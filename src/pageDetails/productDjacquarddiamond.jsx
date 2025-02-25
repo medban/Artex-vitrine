@@ -8,7 +8,6 @@ import Img4 from "../assets/img/jacquard/diamond/gray diamond.jpg";
 import Img5 from "../assets/img/jacquard/diamond/purpule diamond.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -71,7 +70,7 @@ const ProductDjacquardDiamond = () => {
         </Container>
       </section>
 
-      <Contact />
+    
       <Footer />
 
       <Modal show={showModal} onHide={handleClose} centered>

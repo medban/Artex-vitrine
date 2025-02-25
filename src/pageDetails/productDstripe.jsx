@@ -13,7 +13,7 @@ import Img9 from "../assets/img/stripe/tirqose.jpg";
 import Img10 from "../assets/img/stripe/verte.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
+
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -80,7 +80,7 @@ const ProductDstripe = () => {
         </Container>
       </section>
 
-      <Contact />
+     
       <Footer />
 
       

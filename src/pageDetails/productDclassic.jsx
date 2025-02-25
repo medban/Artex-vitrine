@@ -8,7 +8,6 @@ import Img4 from "../assets/img/classic/pink.jpg";
 import Img5 from "../assets/img/classic/purple.jpg";
 
 import "animate.css";
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
@@ -71,7 +70,7 @@ const ProductDclassic = () => {
         </Container>
       </section>
 
-      <Contact />
+ 
       <Footer />
 
       
