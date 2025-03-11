@@ -19,7 +19,7 @@ export const Footer = () => {
             <a href="https://www.instagram.com/artextunisie/"><img src={navIcon3} alt="insta" /></a>
             </div>
             
-            <p>Copyright 2025. created by PROMIT </p>
+            <p>Copyright 2025. created by PROMITM </p>
           </Col>
         </Row>
       </Container>
