@@ -8,6 +8,13 @@ import projImg3 from "../assets/img/E3.jpg";
 import projImg4 from "../assets/img/E4.jpg";
 import projImg5 from "../assets/img/E5.jpg";
 import projImg6 from "../assets/img/E6.jpg";
+import projImg7 from "../assets/img/soi/_MG_9061.JPG";
+import projImg8 from "../assets/img/soi/_MG_9088.JPG";
+import projImg9 from "../assets/img/soi/_MG_9115.JPG";
+import projImg10 from "../assets/img/soi/_MG_9152.JPG";
+import projImg11 from "../assets/img/soi/_MG_9192.JPG";
+import projImg12 from "../assets/img/soi/_MG_9219.JPG";
+import projImg13 from "../assets/img/soi/_MG_9232.JPG";
 
 
 import "animate.css"
@@ -65,6 +72,62 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg1,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg7,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg8,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg9,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg10,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg11,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg12,
+            link: "/ProductDecharpe",
+
+      
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg13,
             link: "/ProductDecharpe",
 
       

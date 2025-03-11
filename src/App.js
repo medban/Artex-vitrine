@@ -23,6 +23,8 @@ import ProductDchevron from "./pageDetails/productDchevron.jsx";
 import ProductDjacquard from "./pageDetails/productDjacquard.jsx";
 import ProductDjacquardDiamond from "./pageDetails/productDjacquarddiamond.jsx";
 import ProductDtissuplat from "./pageDetails/productDtissuplat.jsx";
+import Kofa from "./pageDetails/Kofa.jsx"
+import Tunique from "./pageDetails/Tunique.jsx";
 
 
 import './App.css';
@@ -58,7 +60,8 @@ function App() {
         <Route path="/ProductDjacquard" element={<ProductDjacquard/>}/>
         <Route path="/ProductDjacquardDiamond" element={<ProductDjacquardDiamond/>}/>
         <Route path="/ProductDtissuplat" element={<ProductDtissuplat/>}/>
-
+        <Route path="/Kofa" element={<Kofa/>}/>
+        <Route path="/Tunique" element={<Tunique/>}/>
 
       </Routes>
     </div>
