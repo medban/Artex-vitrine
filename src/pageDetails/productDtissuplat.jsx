@@ -16,6 +16,10 @@ import Img12 from "../assets/img/tissu plat/rose phachia.jpg";
 import Img13 from "../assets/img/tissu plat/rouge.jpg";
 import Img14 from "../assets/img/tissu plat/verte brasil.jpg";
 import Img15 from "../assets/img/tissu plat/verte d'eau.jpg";
+import Img16 from "../assets/img/tissu plat/1.JPG";
+import Img17 from "../assets/img/tissu plat/2.JPG";
+import Img18 from "../assets/img/tissu plat/3.JPG";
+import Img19 from "../assets/img/tissu plat/4.JPG";
 
 import "animate.css";
 import { Footer } from "../components/Footer";
@@ -36,7 +40,11 @@ const images = [
   { src: Img12, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
   { src: Img13, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
   { src: Img14, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img15, text: "Design moderne et raffiné, adapté à toutes vos tenues." }
+  { src: Img15, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
+  { src: Img16, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
+  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
+  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
+  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
 ];
 
 const ProductDtissuplat = () => {

@@ -2,30 +2,24 @@ import { useEffect } from "react";
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProductsCard } from "./productsCard.jsx";
 
-import projImg1 from "../assets/img/chevron/bleu clair.jpg";
-import projImg2 from "../assets/img/chevron/bleu unique.jpg";
-import projImg3 from "../assets/img/chevron/bleu.jpg";
-import projImg4 from "../assets/img/chevron/brown gray.jpg";
-import projImg5 from "../assets/img/chevron/gold.jpg";
-import projImg6 from "../assets/img/chevron/gray.jpg";
-import projImg7 from "../assets/img/chevron/oragne verte.jpg";
-import projImg8 from "../assets/img/chevron/orange noire.jpg";
-import projImg9 from "../assets/img/chevron/pistache.jpg";
-import projImg10 from "../assets/img/chevron/rsoe bleu.jpg";
-import projImg11 from "../assets/img/chevron/tirqoise bleu.jpg";
-import projImg12 from "../assets/img/chevron/verte jeaun.jpg";
-import projImg13 from "../assets/img/chevron/verte.jpg";
-import projImg14 from "../assets/img/chevron/1.JPG";
-import projImg15 from "../assets/img/chevron/2.JPG";
-import projImg16 from "../assets/img/chevron/3.JPG";
-import projImg17 from "../assets/img/chevron/4.JPG";
+import projImg1 from "../assets/img/DAIMOND/1.JPG";
+import projImg2 from "../assets/img/DAIMOND/2.JPG";
+import projImg3 from "../assets/img/DAIMOND/3.JPG";
+import projImg4 from "../assets/img/DAIMOND/4.JPG";
+import projImg5 from "../assets/img/DAIMOND/5.JPG";
+import projImg6 from "../assets/img/DAIMOND/6.JPG";
+import projImg7 from "../assets/img/DAIMOND/7.JPG";
+import projImg8 from "../assets/img/DAIMOND/8.JPG";
+import projImg9 from "../assets/img/DAIMOND/9.JPG";
+import projImg10 from "../assets/img/DAIMOND/10.JPG";
+import projImg11 from "../assets/img/DAIMOND/11.JPG";
 
 import "animate.css"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import { Footer } from '../components/Footer.js';
 
- const Chevron  = () => {
+ const Diamond  = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -35,101 +29,64 @@ import { Footer } from '../components/Footer.js';
         {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
-            imgUrl: projImg13,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg12,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg3,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg4,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg5,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg11,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg7,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg8,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg9,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg10,
-            link: "/ProductDchevron",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg6,
-            link: "/ProductDchevron",
+            imgUrl: projImg1,
+            link: "/DiamondCotton",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg2,
-            link: "/ProductDchevron",
+            link: "/DiamondCotton",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
-            imgUrl: projImg1,
-            link: "/ProductDchevron",
+            imgUrl: projImg3,
+            link: "/DiamondCotton",
           },
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
-            imgUrl: projImg14,
-            link: "/ProductDchevron",
-          },{
+            imgUrl: projImg4,
+            link: "/DiamondCotton",
+          },
+          {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
-            imgUrl: projImg15,
-            link: "/ProductDchevron",
-          },{
+            imgUrl: projImg5,
+            link: "/DiamondCotton",
+          },
+          {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
-            imgUrl: projImg16,
-            link: "/ProductDchevron",
-          },{
+            imgUrl: projImg6,
+            link: "/DiamondCotton",
+          },
+          {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
-            imgUrl: projImg17,
-            link: "/ProductDchevron",
+            imgUrl: projImg7,
+            link: "/DiamondCotton",
+          }, {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg8,
+            link: "/DiamondCotton",
+          }, {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg9,
+            link: "/DiamondCotton",
+          }, {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg10,
+            link: "/DiamondCotton",
+          }, {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg11,
+            link: "/DiamondCotton",
           },
       ];
     
@@ -146,7 +103,7 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>CHEVRON</h2>
+                    <h2> DIAMOND </h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
@@ -180,6 +137,6 @@ import { Footer } from '../components/Footer.js';
       )
     }
     
-    export default Chevron  ;
+    export default Diamond  ;
    
     

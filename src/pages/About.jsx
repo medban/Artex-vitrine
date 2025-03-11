@@ -60,7 +60,7 @@ const About = () => {
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline">KARIM AROUS</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <h1>PDG ARTEX </h1>
                     <p>
                       Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise
                       située à Mahdia, en Tunisie. Passionné par l'industrie textile, il a fondé l'entreprise
@@ -95,7 +95,6 @@ const About = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX </span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>
                       Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise

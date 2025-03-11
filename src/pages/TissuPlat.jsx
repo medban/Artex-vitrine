@@ -16,6 +16,10 @@ import projImg12 from "../assets/img/tissu plat/rose phachia.jpg";
 import projImg13 from "../assets/img/tissu plat/rouge.jpg";
 import projImg14 from "../assets/img/tissu plat/verte brasil.jpg";
 import projImg15 from "../assets/img/tissu plat/verte d'eau.jpg";
+import projImg16 from "../assets/img/tissu plat/1.JPG";
+import projImg17 from "../assets/img/tissu plat/2.JPG";
+import projImg18 from "../assets/img/tissu plat/3.JPG";
+import projImg19 from "../assets/img/tissu plat/4.JPG";
 
 import "animate.css"
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -124,6 +128,31 @@ import { Footer } from '../components/Footer.js';
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
             imgUrl: projImg15,
+            link: "/ProductDtissuplat",
+
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg16,
+            link: "/ProductDtissuplat",
+
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg17,
+            link: "/ProductDtissuplat",
+
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg18,
+            link: "/ProductDtissuplat",
+
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg19,
             link: "/ProductDtissuplat",
 
           },

@@ -11,6 +11,8 @@ import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/TISSU PLAT.jpg";
+import projImg7 from "../assets/img/DAIMOND/1.JPG";
+
 /***** DC 2 ******/
 import Img1 from "../assets/img/soi/a.JPG";
 import Img2 from "../assets/img/soi/b.JPG";
@@ -72,6 +74,12 @@ export const Projects = () => {
       
       imgUrl: [projImg6], 
       link: "/tissuplat",
+    },
+    {
+      title: "TISSU PLAT",
+      
+      imgUrl: [projImg7], 
+      link: "/Diamond",
     },
   ];
   /******DATA 2 echarpe ********/
@@ -203,17 +211,17 @@ export const Projects = () => {
                 <Tab.Container  defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">SERVIETTE</Nav.Link>
+                      <Nav.Link eventKey="first">TUNIQUE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">ECHARPE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">TUNIQUE</Nav.Link>
+                      <Nav.Link eventKey="third">SERVIETTE</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
+                    <Tab.Pane eventKey="third">
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -243,7 +251,7 @@ export const Projects = () => {
                       </Row>                   
                        </Tab.Pane>
 
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="first">
                     <Row>
                         {
                           projects3.map((project, index) => {
@@ -265,6 +273,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
+      
       <img className="background-image-right" src={colorSharp2} alt="Background design" />
       </section>
   )

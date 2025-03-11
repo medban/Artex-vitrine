@@ -14,6 +14,10 @@ import Img10 from "../assets/img/chevron/rsoe bleu.jpg";
 import Img11 from "../assets/img/chevron/tirqoise bleu.jpg";
 import Img12 from "../assets/img/chevron/verte jeaun.jpg";
 import Img13 from "../assets/img/chevron/verte.jpg";
+import Img14 from "../assets/img/chevron/1.JPG";
+import Img15 from "../assets/img/chevron/2.JPG";
+import Img16 from "../assets/img/chevron/3.JPG";
+import Img17 from "../assets/img/chevron/4.JPG";
 
 import "animate.css";
 
@@ -33,7 +37,13 @@ const images = [
   { src: Img10, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
   { src: Img11, text: "Écharpe élégante en lin, alliant confort et style." },
   { src: Img12, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img13, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." }
+  { src: Img13, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
+  { src: Img14, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
+  { src: Img15, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
+  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
+  { src: Img17, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." }
+
+  
 ];
 
 const ProductDchevron = () => {
