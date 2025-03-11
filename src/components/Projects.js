@@ -11,17 +11,29 @@ import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/TISSU PLAT.jpg";
+import projImg7 from "../assets/img/DAIMOND/1.JPG";
+
 /***** DC 2 ******/
-import Img1 from "../assets/img/E1.jpg";
-import Img2 from "../assets/img/E2.jpg";
-import Img3 from "../assets/img/E3.jpg";
-import Img4 from "../assets/img/E4.jpg";
-import Img5 from "../assets/img/E5.jpg";
-import Img6 from "../assets/img/E6.jpg";
+import Img1 from "../assets/img/soi/a.JPG";
+import Img2 from "../assets/img/soi/b.JPG";
+import Img3 from "../assets/img/soi/c.JPG";
+import Img4 from "../assets/img/soi/d.JPG";
+import Img5 from "../assets/img/soi/e.JPG";
+import Img6 from "../assets/img/soi/f.JPG";
+import Img7 from "../assets/img/soi/j.JPG";
+import Img8 from "../assets/img/soi/h.JPG";
+import Img9 from "../assets/img/soi/i.JPG";
+import Img10 from "../assets/img/soi/g.JPG";
 
-
-
-
+/**********DC 3 ***********/
+import Im1 from "../assets/img/soi/TUNIQUE/T.JPG";
+import Im2 from "../assets/img/soi/TUNIQUE/T1.JPG";
+import Im3 from "../assets/img/soi/TUNIQUE/T2.JPG";
+import Im4 from "../assets/img/soi/TUNIQUE/T3.JPG";
+import Im5 from "../assets/img/soi/TUNIQUE/T4.JPG";
+import Im6 from "../assets/img/soi/TUNIQUE/T5.JPG";
+import Im7 from "../assets/img/soi/TUNIQUE/T6.JPG";
+import Im8 from "../assets/img/soi/TUNIQUE/T7.JPG";
 
 export const Projects = () => {
 
@@ -63,6 +75,12 @@ export const Projects = () => {
       imgUrl: [projImg6], 
       link: "/tissuplat",
     },
+    {
+      title: "TISSU PLAT",
+      
+      imgUrl: [projImg7], 
+      link: "/Diamond",
+    },
   ];
   /******DATA 2 echarpe ********/
   const projects2 = [
@@ -102,7 +120,83 @@ export const Projects = () => {
       imgUrl: [Img6], 
       link: "/Echarpe",
     },
+    {
+      title: "PISTASHIO",
+      
+      imgUrl: [Img7], 
+      link: "/Echarpe",
+    },
+    {
+      title: "PISTASHIO",
+      
+      imgUrl: [Img8], 
+      link: "/Echarpe",
+    },
+    {
+      title: "PISTASHIO",
+      
+      imgUrl: [Img9], 
+      link: "/Echarpe",
+    },
+    {
+      title: "PISTASHIO",
+      
+      imgUrl: [Img10], 
+      link: "/Echarpe",
+    },
+    /******** DATA 3 TUNIQUE */
   ];
+    const projects3 = [
+      {
+        title: "CLASSIC",
+        
+        imgUrl: [Im8], 
+        link: "/Tunique",
+      },
+      {
+        title: "JACQUARD",
+        
+        imgUrl: [Im7], 
+        link: "/Tunique",
+      },
+      {
+        title: "JACQUARD DIAMOND",
+        
+        imgUrl: [Im6], 
+        link: "/Tunique",
+      },
+      {
+        title: "CHEVRON",
+        
+        imgUrl: [Im4], 
+        link: "/Kofa",
+      },
+      {
+        title: "GRAIN DE CAFE",
+        
+        imgUrl: [Im5], 
+        link: "/Kofa",
+      },
+      {
+        title: "TISSU PLAT",
+        
+        imgUrl: [Im3], 
+        link: "/Kofa",
+      },
+      {
+        title: "TISSU PLAT",
+        
+        imgUrl: [Im2], 
+        link: "/Kofa",
+      },
+      {
+        title: "TISSU PLAT",
+        
+        imgUrl: [Im1], 
+        link: "/Kofa",
+      },
+    ];
+
 
   return (
     <section className="project" id="project" >
@@ -117,17 +211,17 @@ export const Projects = () => {
                 <Tab.Container  defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">SERVIETTE</Nav.Link>
+                      <Nav.Link eventKey="first">TUNIQUE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">ECHARPE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">JETER</Nav.Link>
+                      <Nav.Link eventKey="third">SERVIETTE</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
+                    <Tab.Pane eventKey="third">
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -157,10 +251,10 @@ export const Projects = () => {
                       </Row>                   
                        </Tab.Pane>
 
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="first">
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          projects3.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -179,6 +273,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
+      
       <img className="background-image-right" src={colorSharp2} alt="Background design" />
       </section>
   )

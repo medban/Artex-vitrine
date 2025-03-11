@@ -15,6 +15,10 @@ import projImg10 from "../assets/img/chevron/rsoe bleu.jpg";
 import projImg11 from "../assets/img/chevron/tirqoise bleu.jpg";
 import projImg12 from "../assets/img/chevron/verte jeaun.jpg";
 import projImg13 from "../assets/img/chevron/verte.jpg";
+import projImg14 from "../assets/img/chevron/1.JPG";
+import projImg15 from "../assets/img/chevron/2.JPG";
+import projImg16 from "../assets/img/chevron/3.JPG";
+import projImg17 from "../assets/img/chevron/4.JPG";
 
 import "animate.css"
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -106,7 +110,27 @@ import { Footer } from '../components/Footer.js';
             imgUrl: projImg1,
             link: "/ProductDchevron",
           },
-         
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg14,
+            link: "/ProductDchevron",
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg15,
+            link: "/ProductDchevron",
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg16,
+            link: "/ProductDchevron",
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg17,
+            link: "/ProductDchevron",
+          },
       ];
     
       return (

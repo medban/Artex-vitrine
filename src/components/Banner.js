@@ -1,7 +1,12 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/1.png";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
+import img1 from "../assets/img/1.png";
+import img2 from "../assets/img/2.png";
+import img3 from "../assets/img/5.png";
+import img4 from "../assets/img/6.png";
+
 import "animate.css";
+
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
@@ -11,7 +16,6 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
 
-  // Memoize the toRotate array to prevent unnecessary re-creations
   const toRotate = useMemo(() => ["Web Developer", "Web Designer", "UI/UX Designer"], []);
 
   const tick = useCallback(() => {
@@ -46,33 +50,56 @@ export const Banner = () => {
   }, [text, delta, tick]);
 
   return (
-    <section className="banner" id="home">
-      <Container>
-        <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h1>ARTEX TUNISIE</h1>
-                  <p>
-                    La Fouta Chevron ARTEX est décorée d'un élégant motif à chevrons, apportant une touche moderne et sophistiquée. Fabriquée à partir de coton 100% biologique, elle allie douceur et grand pouvoir absorbant, parfaite pour un usage quotidien. Aux dimensions généreuses de 1 m x 2 m, cette serviette ajoute une touche d'élégance et de confort naturel à votre salle de bain ou à la plage.
-                  </p>
+    <>
+      <section className="banner1" id="home">
+        <Container>
+          <Row className="align-items-center">
+            <Col xs={12} md={6} xl={7}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" />
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+                    <h1>ARTEX TUNISIE</h1>
+                    <p>
+                      Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise
+                      située à Mahdia, en Tunisie. Passionné par l'industrie textile, il a fondé l'entreprise
+                      avec la vision de créer des produits de qualité, alliant tradition et innovation. Grâce à
+                      son expertise et à son leadership, Artex Textile s'est rapidement imposée comme un acteur
+                      clé dans le secteur textile, contribuant à l'essor économique de la région et à la création
+                      d'emplois.
+                    </p>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12} md={6} xl={5}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                    <Carousel>
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={img1} alt="First slide" />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={img2} alt="Second slide" />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={img3} alt="Third slide" />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={img4} alt="Third slide" />
+                      </Carousel.Item>
+                    </Carousel>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      
+    </>
   );
 };
+
+
