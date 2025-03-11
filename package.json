@@ -34,8 +34,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "ARTEX",
-      "ARTEX/jest"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
